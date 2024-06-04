@@ -14,5 +14,18 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#2C595A", // Ganti dengan kode warna utama Anda
+          secondary: "#FD6300",
+          white : "#ffffff"
+        },
+      },
+    ],
+  },
+  plugins: [
+    require('daisyui'),
+  ],
 };
